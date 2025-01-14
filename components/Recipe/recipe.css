@@ -1,0 +1,11 @@
+.recipe {
+  max-width: 55vw;
+  color: #a0a0a0;
+  margin-bottom: 2em;
+}
+.recipe h2,h3, strong{
+    color: whitesmoke;
+}
+.recipe > h2 {
+  text-align: center;
+}
