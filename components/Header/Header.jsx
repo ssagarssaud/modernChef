@@ -1,9 +1,10 @@
 import React from "react";
 import "./header.css";
+import logo from "../../src/assets/logo";
 const Header = () => {
   return (
     <header>
-      <img src="../../src/assets/logo.png" alt="logo" />
+      <img src={logo} />
       <span>Chef.AI</span>
     </header>
   );
